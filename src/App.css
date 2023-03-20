@@ -1,4 +1,27 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Pattaya&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Fahkwang', sans-serif; 
+
+}
+
+body{
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container{
+  margin: 30px auto;
+  width: 350px;
+}
+
+
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +58,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
